@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none; /*para ficar mais bonito :) none neles */
   text-decoration: none;
 }
 
@@ -24,12 +24,12 @@ html{
   width: 2rem;
   height: 2rem;
   position: fixed;
-  z-index: 100;
+  z-index: 100; /*não mexe*/
   right: 2rem;
   top: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /*espalhei em coluna*/
   cursor: pointer;
 }
 
@@ -38,6 +38,7 @@ html{
 }
 
 .line {
+  /*três*/
   width: 100%;
   height: 0.1rem;
   background-color: #fff;
@@ -64,7 +65,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #a044ff;
+  background-color: #424142;
   color: #ffffff;
   font-family: var(--font-action);
   opacity: 0;
@@ -73,7 +74,7 @@ html{
 .hamburguer span::before {
   content: "";
   position: absolute;
-  border-right: 0.5rem solid #a044ff;
+  border-right: 0.5rem solid #424242;
   border-top: 0.5rem solid transparent;
   border-left: 0.5rem solid transparent;
   border-bottom: 0.5rem solid transparent;
@@ -186,7 +187,7 @@ header {
 
 .menu {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -198,13 +199,13 @@ header {
 
 .menu-link {
   font-family: var(--font-action);
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #555;
   transition: color 1s;
 }
 
 .menu-link:hover {
-  color: #6a3093;
+  color: #424242;
 }
 
 .social-media {
@@ -216,7 +217,7 @@ header {
 }
 
 .social-media i {
-  background-color: #6a3093;
+  background-color: #424242;
   color: rgba(255, 255, 255, 1);
   height: 2.5rem;
   width: 2.5rem;
@@ -229,7 +230,7 @@ header {
 }
 
 .social-media i:hover {
-  background-color: #a044ff;
+  background-color: #424242;
 }
 
 .conhecimentos {
@@ -285,7 +286,8 @@ header {
   font-family: var(--font-primary);
   font-size: 3rem;
   color: #4b4b4b;
-  border-bottom: solid 3px #6a3093;
+  border-bottom: solid 3px #000c40;
+  
   margin-bottom: 1.5rem;
 }
 
@@ -387,9 +389,9 @@ header {
 }
 
 .btn {
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #909290;
+  background: -webkit-linear-gradient(to right,  #000C40, #909290);
+  background: linear-gradient(to left,  #000C40, #909290);
   font-family: var(--font-action);
   color: #eee;
   border-radius: 0.5rem;
@@ -533,9 +535,9 @@ header {
   position: absolute;
   top: -2.5rem;
   left: 2rem;
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #000c40;
+  background: -webkit-linear-gradient(to right, #000C40, #909290);
+  background: linear-gradient(to left,  #000C40, #909290);
   padding: 0 3rem;
   color: #fff;
   font-family: var(--font-primary);
@@ -612,9 +614,9 @@ footer{
   bottom: 3rem;
   width: 3rem;
   height: 3rem;
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #000C40;
+  background: -webkit-linear-gradient(to right, #000C40, #909290);
+  background: linear-gradient(to left,  #000C40, #909290);
   display: flex;
   justify-content: center;
   align-items: center;
